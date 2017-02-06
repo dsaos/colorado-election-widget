@@ -1,0 +1,101 @@
+body {
+  font-family:Adelle, Georgia, serif;
+}
+.chart-holder {
+  text-align:center;
+}
+.panel-body hr {
+  margin:10px 0;
+}
+.panel-body h5.underline {
+  margin: 0 5px;
+}
+h3 {
+  font-style:italic;
+  margin: 7px 0;
+  font-size:21px;
+}
+.badge {
+  font-weight:400;
+  font-family:proxima-nova, Arial, sans-serif;
+}
+#tableHolder .panel-heading {
+  padding:3px 10px;
+}
+#tableHolder .panel {
+
+  margin-top:3px;
+}
+.canvas-holder {
+  width:70%;
+  margin: 20px auto 0 auto;
+  max-width:180px;
+}
+.panel-heading {
+  cursor:pointer;
+}
+.panel .table {
+  font-family:proxima-nova, Arial, sans-serif;
+  font-size:90%;
+}
+.progress-lg span em {
+  font-weight:700;
+  font-style:normal;
+}
+
+.progress-lg {
+  height:50px;
+  margin-top:10px;
+  font-family:proxima-nova, Arial, sans-serif;
+  background-color:#f5f5f5;
+  position:relative;
+  overflow:visible;
+}
+.progress-lg .half-bar {
+  height:60px;
+  width:1px;
+  background-color:#000000;
+  position:absolute;
+  top:-5px;
+  left:50%;
+}
+.progress-bar {
+  background-color:#888888;
+  display:table;
+}
+.progress-lg span {
+  display:table-cell;
+  vertical-align:middle;
+  padding:5px;
+  font-weight:400;
+  font-size:11px;
+  line-height:14px;
+}
+
+.first-candidate {
+  border-right:1px solid #fff;
+}
+.progress-lg .candidate-party {
+  display:none;
+}
+.republican {
+  background-color:#ee575a;
+}
+.democrat {
+  background-color:#5878b8;
+}
+.libertarian {
+  background-color: #FFC577;
+}
+.green-party {
+  background-color:#83E878;
+}
+.for-initiative {
+  background-color:#63B05B;
+}
+.against-initiative {
+  background-color:#6F469C;
+}
+.neutral {
+  background-color:#aaaaaa;
+}
